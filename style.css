@@ -1,0 +1,170 @@
+/* General Body Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f0e1; /* Light mustard background */
+    color: #5a3d29; /* Dark brown text */
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #c19a6b; /* Mustard brown */
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+    color: #f4f0e1; /* Light mustard on hover */
+  }
+  
+  /* Main Content Styling */
+  main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+  }
+  
+  h2, h3 {
+    color: #8b5e3c; /* Lighter brown for headers */
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+  }
+  
+  p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  ul, ol {
+    margin-left: 20px;
+    font-size: 1.1rem;
+  }
+  
+  /* Experiment & Article Layout */
+  .experiment-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .experiment, .featured-experiment {
+    background-color: #fff8e1; /* Light mustard background */
+    padding: 15px;
+    border-radius: 10px;
+    border: 2px solid #c19a6b; /* Mustard brown border */
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    width: 48%;
+  }
+  
+  .experiment h3, .featured-experiment h3 {
+    color: #8b5e3c; /* Lighter brown */
+  }
+  
+  .experiment img, .featured-img {
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    margin: 10px 0;
+    border-radius: 8px;
+  }
+  
+  .featured-experiment {
+    background-color: #f0e2c6; /* Lighter mustard for featured */
+    border: 2px solid #8b5e3c; /* Darker brown border for featured */
+    margin-bottom: 30px;
+  }
+  
+  .featured-experiment h3 {
+    color: #5a3d29; /* Darker brown for featured experiment header */
+  }
+  
+  /* Contact Form Styles */
+  form {
+    background-color: #f9f3e5; /* Very light mustard */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 20px auto;
+  }
+  
+  form div {
+    margin-bottom: 15px;
+  }
+  
+  form label {
+    font-size: 1.2rem;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #c19a6b; /* Mustard brown border */
+    border-radius: 5px;
+  }
+  
+  form button {
+    background-color: #c19a6b; /* Mustard brown button */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #8b5e3c; /* Darker brown on hover */
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #8b5e3c; /* Dark brown footer */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  footer p {
+    font-size: 1rem;
+    margin: 0;
+  }
+  
